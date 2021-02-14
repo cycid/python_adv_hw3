@@ -31,7 +31,7 @@ class DecorTimeCrit:
                 if callable(method):
                     decor_attr = self.benchmark(method)
                     setattr(cls, attr, decor_attr)
-            #returning class with changed attributes
+            #returning class with changed methods
             return cls(*args, **kwargs)
 
         return helper
