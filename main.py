@@ -1,6 +1,7 @@
 """
-Создать класс декоратор (DecorTimeCrit) класса. Декоратор, который измеряет время выполнения каждого метода,
- и печатает предупреждение, только если время выполнения было больше критического (параметр critical_time)
+Create a decorator class (DecorTimeCrit) of the class.
+A decorator that measures the execution time of each method, and prints a warning only if the execution time was greater
+than the critical time (critical_time parameter)
 """
 
 
